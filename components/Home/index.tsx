@@ -1,5 +1,13 @@
+import Category from "./Category";
+import Hero from "./Hero";
+
 function Home() {
-  return <>home</>;
+  return (
+    <div>
+      <Hero />
+      <Category />
+    </div>
+  );
 }
 
 export default Home;
